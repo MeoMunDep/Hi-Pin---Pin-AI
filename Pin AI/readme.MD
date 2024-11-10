@@ -32,6 +32,7 @@ To get started with the bot, follow these steps:
 
 ```json
 {
+  "collectCoinsForever": false, //true if you want to collect coins forever
   "limit": 5, //number of accounts run in a row
   "countdown": 300, //time to restarts all the accounts - count by seconds
   "country_time": "vi-VN" //timestamp base on the country
