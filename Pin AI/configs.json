@@ -1,1 +1,8 @@
-{ "limit": 100, "countdown": 300, "country_time": "en-US",  "collectCoinsForever": false }
+{
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "collectCoinsForever": false,
+  "referralCode": "p8kr9hH",
+  "delayEachAccount": [5, 8]
+}
