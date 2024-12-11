@@ -13,8 +13,9 @@
 To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
-
--> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
+> Remember to download Nodejs version: **22.11.0** and NPM version: **10.9.0**
+>
+> > [Download Link](https://t.me/KeoAirDropFreeNe/257/1462)
 
 1. **Install Dependencies and Modules:**
 
@@ -32,11 +33,14 @@ To get started with the bot, follow these steps:
 
 ```json
 {
-  "collectCoinsForever": false, //true if you want to collect coins forever
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "collectCoinsForever": false,
+  "referralCode": "p8kr9hH",
+  "delayEachAccount": [5, 8]
 }
+
 ```
 
 ### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
@@ -67,6 +71,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node bot`
+> To run the bot, use the following command: `cd Hi-Pin---Pin-AI-main/Pin AI; node bot`
 
 🎇Enjoy!
