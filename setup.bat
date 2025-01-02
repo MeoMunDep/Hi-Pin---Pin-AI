@@ -81,7 +81,7 @@ if exist "..\node_modules" (
 ) else (
     echo Using node_modules from current directory
 )
-cd "pin ai" && node bot
+cd "pin ai" && node meomundep
 pause
 goto MENU
 
