@@ -47,9 +47,9 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
   "country_time": "en-US",
   "collectCoinsForever": false,
   "referralCode": "p8kr9hH",
-  "delayEachAccount": [5, 8]
+  "delayEachAccount": [5, 8],
+  "doTasks": true
 }
-
 ```
 
 ### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
@@ -61,6 +61,9 @@ query_id.../user...
 ```
 
 ### 3. `wallets.txt` 💼 - Cannot update yet.
+
+- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
+
 
 ```txt - wallet address
 abc...xyz
@@ -80,6 +83,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `cd Hi-Pin---Pin-AI-main/Pin AI; node meomundep`
+> To run the bot, use the following command: `cd "Hi-Pin---Pin-AI-main/Pin AI"; node meomundep`
 
 🎇Enjoy!
