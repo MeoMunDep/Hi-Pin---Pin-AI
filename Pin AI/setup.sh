@@ -85,7 +85,7 @@ while true; do
 
             check_configs
 
-            for file in datas.txt wallets.txt proxies.txt; do
+            for file in datas.txt wallets.txt proxies.txt tokens.json; do
                 if [ ! -f "$file" ]; then
                     touch "$file"
                     print_green "Created $file"
