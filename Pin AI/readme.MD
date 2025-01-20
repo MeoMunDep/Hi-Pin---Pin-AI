@@ -60,6 +60,23 @@ query_id.../user...
 query_id.../user...
 ```
 
+### 2.1 `tokens.json` 🗂️ - Do not touch this file.
+
+```json
+{
+  "userName": {
+    "token": "ey...",
+    "decodedData": {
+      "sub": "user_id",
+      "iat": time,
+      "tt": "ta",
+      "exp": time
+    },
+    "timestamp": time
+  }
+}
+```
+
 ### 3. `wallets.txt` 💼 - Cannot update yet.
 
 - Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
