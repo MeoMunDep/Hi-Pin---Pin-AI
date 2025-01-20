@@ -65,6 +65,10 @@ if not exist proxies.txt (
     type nul > proxies.txt
     echo Created proxies.txt
 )
+if not exist proxies.txt (
+    type nul > tokens.txt
+    echo Created tokens.txt
+)
 
 echo.
 echo Configuration files have been created/checked.
