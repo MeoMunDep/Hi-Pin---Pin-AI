@@ -67,13 +67,14 @@ fi
 create_default_configs() {
     cat > configs.json << EOL
 {
-  "limit": 100,
+  "limit": 1,
   "countdown": 300,
   "country_time": "en-US",
   "collectCoinsForever": false,
   "referralCode": "p8kr9hH",
   "delayEachAccount": [1, 1],
-  "doTasks": true
+  "doTasks": true,
+  "upgradeModel": true
 }
 EOL
 }
