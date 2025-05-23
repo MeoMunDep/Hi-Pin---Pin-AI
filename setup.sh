@@ -69,7 +69,6 @@ create_default_configs() {
 {
   "limit": 1,
   "countdown": 300,
-  "country_time": "en-US",
   "collectCoinsForever": false,
   "referralCode": "p8kr9hH",
   "delayEachAccount": [1, 1],
@@ -106,7 +105,7 @@ print_green "Configuration files have been checked."
 
 print_yellow "Checking dependencies..."
 cd "$MODULES_DIR"
-npm install user-agents axios colors https-proxy-agent socks-proxy-agent 
+npm install user-agents axios meo-forkcy- https-proxy-agent socks-proxy-agent 
 cd - > /dev/null
 print_green "Dependencies installation completed!"
 
