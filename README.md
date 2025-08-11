@@ -47,7 +47,8 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
   "collectCoinsForever": false,
   "referralCode": "p8kr9hH",
   "delayEachAccount": [5, 8],
-  "doTasks": true
+  "doTasks": true,
+  "upgradeModel": true
 }
 ```
 
