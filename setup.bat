@@ -19,11 +19,11 @@ echo Checking dependencies...
 if exist "..\node_modules" (
     echo Using node_modules from parent directory...
     cd ..
-    CALL npm install user-agents axios meo-forkcy-colors meo-forkcy-utils meo-forkcy-proxy
+    CALL npm install user-agents axios meo-forkcy-colors meo-forkcy-utils meo-forkcy-proxy meo-forkcy-logger
     cd %~dp0
 ) else (
     echo Installing dependencies in current directory...
-    CALL npm install user-agents axios meo-forkcy-colors meo-forkcy-utils meo-forkcy-proxy
+    CALL npm install user-agents axios meo-forkcy-colors meo-forkcy-utils meo-forkcy-proxy meo-forkcy-logger
 )
 echo Dependencies installation completed!
 
